@@ -1,7 +1,6 @@
 .logo{
     font-size: 20px;
     font-weight:bolder;
-    margin: auto;
     color: gray;
 }
 
@@ -10,10 +9,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
     
-    width: 100%;
-    
-    position: center;
+    width: 80%;
     top: 0;
     left: 0;
     right: 0;
@@ -26,11 +24,9 @@
 }
 
 .nav_link{
-    display: inline-block;
+    display: inline-block flex;
     vertical-align: top;
-    padding-left: 50px;
-    padding-right: auto;
-    position: relative;
+    padding-left: 20px;
    
     
     color: black;
@@ -45,7 +41,7 @@
 }
 
 .nav_link: after{
-    width: 100%;
+    width: 80%;
     height: 3px;
 }
 
@@ -60,7 +56,7 @@ body{
 .text{
     
     font-weight:normal;
-    font-size: 15px;
+    font-size: 17px;
 
     text-transform: uppercase;
     text-align: center;
