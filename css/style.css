@@ -1,9 +1,89 @@
-/* Site Styles
-================================================== */
-body {
-	background:#292929;
-	font-family: 'TitilliumText22LMedium', Arial, sans-serif;
-	font-size:14px;
-	color:#787777;
+.logo{
+    font-size: 30px;
+    font-weight:bolder;
+    margin-left: 50px;
 }
 
+.hedder_inner{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.nav{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px;
+    margin-right: 50px;
+    margin-left: 10px;
+    position: relative;
+   
+    
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    font-weight:bolder;
+    
+}
+
+.nav_link:hover {
+    color: rosybrown;
+}
+
+.nav_link: after{
+    width: 100%;
+    height: 3px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: fff;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.text{
+    
+    font-weight:normal;
+    font-size: 15px;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.intro_inner{
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto;
+    
+}
+
+.intro {
+    
+    width: 100%;
+    height: 100hv;
+}
+
+.main{
+}
+
+.tb {
+    max-width: 700px;
+    margin: -50px auto;
+}
