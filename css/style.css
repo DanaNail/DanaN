@@ -1,7 +1,8 @@
 .logo{
-    font-size: 30px;
+    font-size: 20px;
     font-weight:bolder;
-    margin-left: 50px;
+    margin: auto;
+    color: gray;
 }
 
 .hedder_inner{
@@ -12,7 +13,7 @@
     
     width: 100%;
     
-    position: absolute;
+    position: center;
     top: 0;
     left: 0;
     right: 0;
@@ -27,9 +28,8 @@
 .nav_link{
     display: inline-block;
     vertical-align: top;
-    margin: 0px 10px;
-    margin-right: 50px;
-    margin-left: 10px;
+    padding-left: 50px;
+    padding-right: auto;
     position: relative;
    
     
@@ -52,8 +52,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: fff;
-    width: 1200px;
-    margin: 0 auto;
+    width: 600px;
+    margin: auto;
 }
 
 
@@ -84,6 +84,6 @@ body{
 }
 
 .tb {
-    max-width: 700px;
+    max-width: 600px;
     margin: -50px auto;
 }
