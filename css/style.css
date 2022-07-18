@@ -10,7 +10,6 @@ body{
     min-height: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
 /* header */
@@ -30,7 +29,6 @@ body{
 }
 
 .nav{
-    
 }
 
 .nav_link{
@@ -42,7 +40,6 @@ body{
     color: #73685F; 
     transition: color 0.2s linear;
     padding-left: 20px;
-
 }
 
 .nav_link:hover {
